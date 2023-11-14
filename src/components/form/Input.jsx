@@ -14,7 +14,8 @@ const Input = ({ label, type, name, id, value, setValue, ...props }) => {
             value={value} 
             onChange={({ target }) => setValue(target.value)} 
             {...props}
-            className="p-2 rounded-md w-full sm:w-full outline-none"
+            className="p-2 rounded-md bg-white w-full sm:w-[400px] outline-none text-center placeholder:text-gray-500
+            hover:shadow-lg focus:outline focus:outline-blue-600 focus:outline-4 focus:bg-gray-100"
         />
     </>
   )
