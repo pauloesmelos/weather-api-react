@@ -49,7 +49,7 @@ const FormSearch = () => {
             value={city} 
             setValue={setCity} 
             placeholder="Digite uma cidade" />
-            {erro && <p className="text-red-600 mt-2 w-40 sm:w-72 text-center">{erro}</p>}
+            {erro && <p className="text-red-600 mt-2 w-full sm:w-72 sm:ml-10 text-center">{erro}</p>}
             <Button>
                 Pesquisar
             </Button>
