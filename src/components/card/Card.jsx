@@ -33,8 +33,8 @@ const Card = ({ data }) => {
 
   if(data && api) {
     return (
-      <section className="bg-white mt-8 relative rounded-lg w-full sm:py-10 sm:w-[350px] hover:border-b-4 hover:border-blue-500
-      sm:ml-5">
+      <section className="bg-white mt-8 relative rounded-lg w-full sm:py-10 sm:w-[350px] hover:border-b-8 hover:border-blue-500
+      sm:ml-5 cursor-pointer">
           <div className="text-center">
               <span className="text-lg font-bold block">{api.location.name}</span>
               <span className="text-sm text-slate-400">
