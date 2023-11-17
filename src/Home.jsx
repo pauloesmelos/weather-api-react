@@ -17,7 +17,7 @@ const Home = () => {// BOM DIA ! BOA NOITE IMPLEMENTAR
   const time = () => {
     const hour = new Date().getHours();
     const minutes = new Date().getMinutes();
-    return `${hour}:${minutes}`;
+    return `${hour}:${(minutes < 10 ) ? `0${minutes}` : minutes}`; // 13:7 -> 13:07
   }
 
   return (
